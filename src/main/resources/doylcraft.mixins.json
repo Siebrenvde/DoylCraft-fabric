@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.siebrenvde.fabric.doylcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "MessageCommandMixin",
+    "MessageCommandInvoker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
